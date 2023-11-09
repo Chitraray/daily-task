@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>forms</title>
+ </head>
+ <body>
+    <fieldset>
+        <center>
+        <legend><h1>Registration form</h1></legend>
+        </center>
+    <form action="./signup.html" target="_blank">
+<label for="first name">First name:</label>
+<input type="text" name="fname" id="fname" placeholder="enter first name"/><br><br>
+
+<label for="Last name">Last name:</label>
+<input type="text" name="lastname" id="lastname" placeholder="enter last name"/><br><br>
+
+<label for="Mail">Email id:</label>
+<input type="email" name="mail" id="mail" required/><br><br>
+
+<label for="phone">Mobile number:</label>
+<input name="phone" id="phone" type="tel" pattern="[0-9]{10}"/><br><br>
+
+<p>Select Gender:</p>
+
+<label>male</label><input type="radio" value="male" name="gender" id="male">
+<label>female</label><input type="radio" value="female" name="gender" id="female">
+<label>others</label><input type="radio" value="others" name="gender" id="others">
+
+<p>Address:</p>
+
+<textarea rows="5" cols="15"></textarea><br><br>
+
+<input type="submit"/>
+
+
+
+    </form>
+    </fieldset>
+    </body>
+    </html>
