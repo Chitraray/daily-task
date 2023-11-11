@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>forms</title>
+
+<style>
+h1{
+    color: orangered;
+    background-color: aqua;
+}
+
+p{
+    color: brown;
+background-color: bisque;
+}
+body
+{
+    background:linear-gradient(red,blue);
+}
+
+</style>
+ </head>
+ <body> 
+   
+    <fieldset>
+        <center>
+         <legend><h1>Registration form</h1></legend>
+         </center>
+ 
+     <form action="./day9.1.css.html" target="_blank">
+        <table>
+            <tr>
+                <td>
+ <p><label for="first name">First name:</label>
+ <input type="text" name="fname" id="fname" placeholder="enter first name"/><br><br>
+ 
+ <label for="Last name">Last name:</label>
+<input type="text" name="lastname" id="lastname" placeholder="enter last name"/><br><br>
+
+<label for="Mail">Email id:</label>
+<input type="email" name="mail" id="mail" required/><br><br>
+
+<label for="phone">Mobile number:</label>
+<input name="phone" id="phone" type="tel" pattern="[0-9]{10}"/><br><br>
+
+<p>Select Gender:</p>
+
+<label>male</label><input type="radio" value="male" name="gender" id="male">
+<label>female</label><input type="radio" value="female" name="gender" id="female">
+<label>others</label><input type="radio" value="others" name="gender" id="others">
+<br><br>
+
+<p><label for="dob">Date of birth :</label>
+<input type="datetime-local" id="dob">
+
+<p>Address:</p>
+
+<textarea rows="5" cols="15"></textarea><br><br>
+
+<input type="submit"/>
+
+</p>
+</td>
+</tr>
+</table>
+    </form>
+    </fieldset>
+    </body>
+    </html>
